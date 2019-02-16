@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>CP 2: My Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>My Kitchen</h1>
+
+    <p id="intro">Hungry for something? Search for the recipe here!</p>
+
+    <form>
+      <label>Enter what you'd like to make</label>
+      <input id="recipeInput" type="text" placeholder="salad"></input><br/>
+      <label> Enter some ingredients separated by commas (optional)</label>
+      <input id="ingredientInput" type="text" placeholder="tomato,cucumber"></input><br/>
+      <input id="recipeSubmit" type="submit" value="Submit"></input>
+    </form>
+
+    <div id="recipeResults">
+    </div>
+
+    <footer>
+      <p><a id="footerLink" href="https://github.com/kbresciano/CS260CP2RecipeSearch">Link to GitHub Repo</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="script.js">
+    </script>
+
+  </body>
+
+</html>
